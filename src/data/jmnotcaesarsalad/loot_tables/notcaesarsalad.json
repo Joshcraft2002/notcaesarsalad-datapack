@@ -9,9 +9,16 @@
                     "name": "minecraft:rabbit_stew",
                     "functions": [
                         { "function": "set_count", "count": 1 },
-                        { "function": "set_nbt", "tag": "{CustomModelData:480069}"},
-                        { "function": "set_nbt", "tag": "{smithed:{id:'jmnotcaesarsalad:notcaesarsalad', dict:{food:1b}}}" },
-                        { "function": "set_name", "name": [{ "translate": "item.jmnotcaesarsalad.notcaesarsalad", "italic": false }] }
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": { "translate": "item.jmnotcaesarsalad.notcaesarsalad" },
+                                "minecraft:item_model": "jmnotcaesarsalad:notcaesarsalad",
+                                "minecraft:custom_data": {
+                                    "smithed": { "id": "jmnotcaesarsalad:notcaesarsalad" }
+                                }
+                            }
+                        }
                     ]
                 }
             ]

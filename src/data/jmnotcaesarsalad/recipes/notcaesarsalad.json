@@ -1,28 +1,25 @@
 {
-    "type": "crafting_shaped",
-    "pattern": [
-      "SCS",
-      "LBL",
-      "SES"
-    ],
-    "key": {
-      "L": {
-        "tag": "minecraft:leaves"
-      },
-      "S": {
-        "item": "minecraft:iron_sword"
-      },
-      "B": {
-        "item": "minecraft:bowl"
-      },
-      "C": {
-        "item": "minecraft:bread"
-      },
-      "E": {
-        "item": "minecraft:egg"
+  "type": "crafting_shaped",
+  "pattern": [
+    "SCS",
+    "LBL",
+    "SES"
+  ],
+  "key": {
+    "L": "#minecraft:leaves",
+    "S": "minecraft:iron_sword",
+    "B": "minecraft:bowl",
+    "C": "minecraft:bread",
+    "E": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:rabbit_stew",
+    "components": {
+      "minecraft:item_name": { "translate": "item.jmnotcaesarsalad.notcaesarsalad"},
+      "minecraft:item_model": "jmnotcaesarsalad:notcaesarsalad",
+      "minecraft:custom_data": {
+        "smithed": { "id": "jmnotcaesarsalad:notcaesarsalad" }
       }
-    },
-    "result": {
-      "item": "minecraft:knowledge_book"
     }
   }
+}

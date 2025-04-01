@@ -1,10 +1,12 @@
 {
     "criteria": {
-      "requirement": {
+      "notcaesarsalad_eaten": {
         "trigger": "minecraft:consume_item",
         "conditions": {
-          "item": {
-            "nbt": "{smithed:{id:'jmnotcaesarsalad:notcaesarsalad'}}"
+          "predicates": {
+            "minecraft:custom_data": {
+              "smithed": { "id": "jmnotcaesarsalad:notcaesarsalad" }
+            }
           }
         }
       }

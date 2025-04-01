@@ -1,0 +1,15 @@
+{
+    "id": "notcaesarsalad",
+    "name": "\"Caesar\" Salad",
+    "version": "ides-of-march.44-b",
+    "data_pack": {
+        "pack_format": 15,
+        "description": "\"Caesar\" Salad by Josh Mats.",            
+        "load": ["."]
+    },
+    "resource_pack": {
+        "pack_format": 15,
+        "description": "\"Caesar\" Salad by Josh Mats. Art by Rentheman.",
+        "load": ["."]
+    }
+}

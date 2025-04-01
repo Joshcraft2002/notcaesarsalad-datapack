@@ -1,0 +1,1 @@
+scoreboard objectives add jmnotcaesarsalad.check_showdeath dummy

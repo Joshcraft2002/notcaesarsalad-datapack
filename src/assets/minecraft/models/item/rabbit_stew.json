@@ -1,0 +1,9 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rabbit_stew"
+    },
+    "overrides": [
+        { "predicate": { "custom_model_data": 480069 }, "model": "jmnotcaesarsalad:item/notcaesarsalad" }
+    ]
+}

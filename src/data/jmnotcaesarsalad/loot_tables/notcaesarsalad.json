@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:rabbit_stew",
+                    "functions": [
+                        { "function": "set_count", "count": 1 },
+                        { "function": "set_nbt", "tag": "{CustomModelData:480069}"},
+                        { "function": "set_nbt", "tag": "{smithed:{id:'jmnotcaesarsalad:notcaesarsalad', dict:{food:1b}}}" },
+                        { "function": "set_name", "name": [{ "translate": "item.jmnotcaesarsalad.notcaesarsalad", "italic": false }] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

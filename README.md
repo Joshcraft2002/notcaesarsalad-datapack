@@ -23,6 +23,6 @@ Adds a very peculiar salad to the game.
 </details>
 
 ## Links
-[Modrinth](https://modrinth.com/datapack/joshs-more-foods)
+[Modrinth](https://modrinth.com/datapack/%22caesar%22-salad)
 <br>
-[Planet Minecraft](https://www.planetminecraft.com/data-pack/josh-s-more-foods-20-new-recipes/)
+[Planet Minecraft](https://www.planetminecraft.com/data-pack/caesar-salad/)
